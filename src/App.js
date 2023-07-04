@@ -4,10 +4,12 @@ import Calculator from './components/Calculator'
 
 function App() {
   return (
-    <div className="App">
-      <h1>Calculadora React</h1>
-      <Calculator />
-    </div >
+    <>
+      <div className="App">
+        <h1>Calculadora React</h1>
+        <Calculator />
+      </div >
+    </>
   );
 }
 
