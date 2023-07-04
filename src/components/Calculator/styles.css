@@ -1,0 +1,31 @@
+
+
+.calc-wrapper {
+  cursor: pointer;
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 10px outset #282c34;
+}
+
+.linha {
+  display: flex;
+}
+
+h1 {
+  color: #282c34;
+  font-size: 35px;
+}
+
+@media (max-width: 600px) {
+  .calc-wrapper {
+    width: 450px;
+  }
+}
+
+@media (max-width: 500px) {
+  .calc-wrapper {
+    width: 300px;
+  }
+}
